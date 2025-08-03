@@ -131,7 +131,7 @@ const rules = {
         if (!dados) {
             alert("Usuário não autenticado")
             window.location.href = "index.html"
-            
+
             console.warn("Usuário não encontrado no localStorage.");
             return;
         }
@@ -152,8 +152,7 @@ const rules = {
                 $("#containerModal").append("Banida do meu site, acesso negado, porque não quer casar comigo")
                 modal.show()
                 $("#accept").on("click", function () {
-
-                    window.close();
+                    window.location.href = 'about:blank'
                 })
                 break;
         }
@@ -179,7 +178,7 @@ const rules = {
             $("#containerModal").append("Gabriele você ja se cadastrou ?")
             modal.show()
             return;
-        }else{
+        } else {
             $("#emailLB").val(usuario.email)
             $("#nomeLB").val(usuario.nome)
             $("#senhaLB").val(usuario.senha)
