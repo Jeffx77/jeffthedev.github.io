@@ -53,7 +53,7 @@ const rules = {
         }
     },
     registrar: () => {
-        window.location.href = "Registrar.html"
+        window.location.href = "registrar.html"
         console.log("pagina trocada")
     },
     registroSucesso: () => {
