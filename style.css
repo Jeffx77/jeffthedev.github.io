@@ -462,5 +462,7 @@ h1 {
 
   .card-text small {
     color: #555;
+  }.divNome{
+    width: 100%;
   }
 }
