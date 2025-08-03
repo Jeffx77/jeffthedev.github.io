@@ -25,20 +25,25 @@ body {
     justify-items: center;
     margin-top: 30px;
     border: none;
-    background-color: hsl(329, 84%, 80%); /* rosa claro e suave */
+    background-color: hsl(329, 84%, 80%);
+    /* rosa claro e suave */
     border-radius: 30px;
     padding: 20px;
     text-align: center;
 }
-.btn{
+
+.btn {
     background-color: rgba(240, 240, 240, 0) !important;
 }
-.btn-outline-danger:hover{
+
+.btn-outline-danger:hover {
     color: red !important;
 }
-.btn-outline-info:hover{
+
+.btn-outline-info:hover {
     color: rgb(32, 166, 255) !important;
 }
+
 .center input {
     margin: 8px 0;
     padding: 8px;
@@ -62,14 +67,14 @@ button {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-    
+
 #containerModal,
 #containerModalLogin {
-    color: #e60026; 
+    color: #e60026;
 }
 
 .register {
-    color: #27ae60; 
+    color: #27ae60;
 }
 
 .return {
@@ -83,66 +88,97 @@ a {
     outline: none;
     box-shadow: none;
 }
-.senhaMenor{
+
+.senhaMenor {
     padding-left: 250px;
     font-size: 14px;
 }
+
 a:hover {
     color: #27ae60;
 }
-.center input{
-    margin:auto
+
+.center input {
+    margin: auto
 }
-h3,h1{
+
+h3,
+h1 {
     color: #d93a71;
     font-family: 'Quicksand', sans-serif;
     text-shadow: 1px 1px 2px #000000aa;
-}.divNome{
-    padding-left:10px;
+}
+
+.divNome {
+    padding-left: 10px;
     background-color: rgba(39, 39, 39, 0.938);
 }
-#nomeIndex{
-    font-family:cursive;
-    color:#d93a71
-}.carousel-img {
-    height: 500px; /* ou 60vh para responsivo */
+
+#nomeIndex {
+    font-family: cursive;
+    color: #d93a71
+}
+
+.carousel-img {
+    height: 500px;
+    /* ou 60vh para responsivo */
     object-fit: contain;
     object-position: center;
-     /* fundo neutro nas sobras */
+    /* fundo neutro nas sobras */
     margin: auto;
-  }.carousel-control-prev{
-    margin-left: 200px;
-  }.carousel-control-next{
-    margin-right: 200px;
-  }.row{
-    gap: 200px;
-  }.card-img-top {
-    height: 250px; /* defina a altura que preferir */
-    object-position: center;/* faz o crop da imagem mantendo proporção */
-    object-fit:scale-down;
-   
 }
-.card{
+
+.carousel-control-prev {
+    margin-left: 200px;
+}
+
+.carousel-control-next {
+    margin-right: 200px;
+}
+
+.row {
+    gap: 200px;
+}
+
+.card-img-top {
+    height: 250px;
+    /* defina a altura que preferir */
+    object-position: center;
+    /* faz o crop da imagem mantendo proporção */
+    object-fit: scale-down;
+
+}
+
+.card {
     background-color: transparent;
     border: none;
 
-}.card-group{
+}
+
+.card-group {
     background-color: #d93a71;
-}.titleMap{
+}
+
+.titleMap {
     cursor: pointer;
 }
-.titleMap:hover{
+
+.titleMap:hover {
     position: relative;
     transform: scale(1.1);
-}.footer{
-    background-color: gray;
-    padding-top:15px;
 }
-.bi-arrow-through-heart-fill{
+
+.footer {
+    background-color: gray;
+    padding-top: 15px;
+}
+
+.bi-arrow-through-heart-fill {
     color: #e60026;
     font-size: 2rem;
     padding-left: 50px;
 }
+
 body {
     background-image: url("img.png");
     background-size: cover;
@@ -170,20 +206,25 @@ body {
     justify-items: center;
     margin-top: 30px;
     border: none;
-    background-color: hsl(329, 84%, 80%); /* rosa claro e suave */
+    background-color: hsl(329, 84%, 80%);
+    /* rosa claro e suave */
     border-radius: 30px;
     padding: 20px;
     text-align: center;
 }
-.btn{
+
+.btn {
     background-color: rgba(240, 240, 240, 0) !important;
 }
-.btn-outline-danger:hover{
+
+.btn-outline-danger:hover {
     color: red !important;
 }
-.btn-outline-info:hover{
+
+.btn-outline-info:hover {
     color: rgb(32, 166, 255) !important;
 }
+
 .center input {
     margin: 8px 0;
     padding: 8px;
@@ -207,14 +248,14 @@ button {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-    
+
 #containerModal,
 #containerModalLogin {
-    color: #e60026; 
+    color: #e60026;
 }
 
 .register {
-    color: #27ae60; 
+    color: #27ae60;
 }
 
 .return {
@@ -228,63 +269,198 @@ a {
     outline: none;
     box-shadow: none;
 }
-.senhaMenor{
+
+.senhaMenor {
     padding-left: 250px;
     font-size: 14px;
 }
+
 a:hover {
     color: #27ae60;
 }
-.center input{
-    margin:auto
+
+.center input {
+    margin: auto
 }
-h3,h1{
+
+h3,
+h1 {
     color: #d93a71;
     font-family: 'Quicksand', sans-serif;
     text-shadow: 1px 1px 2px #000000aa;
-}.divNome{
-    padding-left:10px;
+}
+
+.divNome {
+    padding-left: 10px;
     background-color: rgba(39, 39, 39, 0.938);
 }
-#nomeIndex{
-    font-family:cursive;
-    color:#d93a71
-}.carousel-img {
-    height: 500px; /* ou 60vh para responsivo */
+
+#nomeIndex {
+    font-family: cursive;
+    color: #d93a71
+}
+
+.carousel-img {
+    height: 500px;
+    /* ou 60vh para responsivo */
     object-fit: contain;
     object-position: center;
-     /* fundo neutro nas sobras */
+    /* fundo neutro nas sobras */
     margin: auto;
-  }.carousel-control-prev{
-    margin-left: 200px;
-  }.carousel-control-next{
-    margin-right: 200px;
-  }.row{
-    gap: 200px;
-  }.card-img-top {
-    height: 250px; /* defina a altura que preferir */
-    object-position: center;/* faz o crop da imagem mantendo proporção */
-    object-fit:scale-down;
-   
 }
-.card{
+
+.carousel-control-prev {
+    margin-left: 200px;
+}
+
+.carousel-control-next {
+    margin-right: 200px;
+}
+
+.row {
+    gap: 200px;
+}
+
+.card-img-top {
+    height: 250px;
+    /* defina a altura que preferir */
+    object-position: center;
+    /* faz o crop da imagem mantendo proporção */
+    object-fit: scale-down;
+
+}
+
+.card {
     background-color: transparent;
     border: none;
 
-}.card-group{
+}
+
+.card-group {
     background-color: #d93a71;
-}.titleMap{
+}
+
+.titleMap {
     cursor: pointer;
 }
-.titleMap:hover{
+
+.titleMap:hover {
     position: relative;
     transform: scale(1.1);
-}.footer{
-    background-color: gray;
-    padding-top:15px;
 }
-.bi-arrow-through-heart-fill{
+
+.footer {
+    background-color: gray;
+    padding-top: 15px;
+}
+
+.bi-arrow-through-heart-fill {
     color: #e60026;
     font-size: 2rem;
     padding-left: 50px;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: top center;
+        background-repeat: no-repeat;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    .divPrincipal {
+        width: 90%;
+        padding: 20px;
+        position: static;
+        transform: none;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(2px);
+    }
+
+    .senhaMenor {
+        padding-left: 0;
+        padding-right: 10px;
+        text-align: right;
+        font-size: 14px;
+    }
+
+    .btnPd {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .center input {
+        width: 100%;
+    }
+
+    .carousel-img {
+        height: 250px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .row {
+        gap: 20px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .resp {
+        padding-left: 80px;
+    }
+
+    .resp2 {
+        padding-left: 30px;
+    }
+
+  .card-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* espaço entre os cards */
+    padding: 0 10px; /* um pouco de espaçamento lateral */
+  }
+
+  .card {
+    width: 100%;
+    border-radius: 12px;
+    background-color: #f8d4e0; /* ou transparente se preferir */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .card-body {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .card-title {
+    font-weight: bold;
+    color: #d93a71;
+  }
+
+  .card-text small {
+    color: #555;
+  }
 }
