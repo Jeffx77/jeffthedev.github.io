@@ -130,6 +130,7 @@ const rules = {
         const dados = localStorage.getItem("usuarioCadastrado");
         if (!dados) {
             alert("Usuário não autenticado")
+            window.location.href = "index.html"
             
             console.warn("Usuário não encontrado no localStorage.");
             return;
