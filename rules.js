@@ -152,7 +152,8 @@ const rules = {
                 $("#containerModal").append("Banida do meu site, acesso negado, porque não quer casar comigo")
                 modal.show()
                 $("#accept").on("click", function () {
-                    window.location.href = 'about:blank'
+                    localStorage.removeItem("usuarioCadastrado");
+                    window.location.href = 'index.html'
                 })
                 break;
         }
